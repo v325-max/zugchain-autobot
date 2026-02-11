@@ -1,0 +1,10 @@
+{
+  "twoCaptchaApiKey": "YOUR_2CAPTCHA_API_KEY",
+  "accounts": [
+    {
+      "name": "Account 1",
+      "privateKey": "YOUR_METAMASK_PRIVATE_KEY",
+      "proxy": "http://user:pass@ip:port"
+    }
+  ]
+}

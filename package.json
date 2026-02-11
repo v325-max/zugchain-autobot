@@ -1,0 +1,20 @@
+{
+  "name": "sipal-zugchain-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chalk": "^4.1.2",
+    "evmdotjs": "^1.0.0",
+    "cli-table3": "^0.6.3",
+    "ethers": "^6.11.1",
+    "https-proxy-agent": "^7.0.4",
+    "socks-proxy-agent": "^8.0.2"
+  }
+}

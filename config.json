@@ -1,0 +1,39 @@
+{
+  "baseUrl": "https://testnet.zugchain.org",
+  "rpcUrl": "https://rpc.zugchain.org",
+  "chainId": 824642,
+  "api": {
+    "missions": "/api/missions",
+    "verify": "/api/missions/verify",
+    "profile": "/api/incentive/profile",
+    "sync": "/api/incentive/sync",
+    "stakingHistory": "/api/staking/history",
+    "inviteMilestones": "/api/invite-milestones",
+    "faucet": "/faucet",
+    "userSync": "/api/user/sync"
+  },
+  "delays": {
+    "minDelay": 2000,
+    "maxDelay": 5000,
+    "betweenAccounts": 10000,
+    "betweenTasks": 3000,
+    "microPauseMin": 500,
+    "microPauseMax": 1500,
+    "sessionCooldown": 300000
+  },
+  "scheduler": {
+    "dailyResetHour": 0,
+    "checkIntervalMinutes": 30,
+    "maxActionsPerSession": 15
+  },
+  "retry": {
+    "maxRetries": 3,
+    "initialBackoffMs": 1000,
+    "maxBackoffMs": 30000
+  },
+  "dummyPages": [
+    "/",
+    "/leaderboard",
+    "/staking/vzug"
+  ]
+}
