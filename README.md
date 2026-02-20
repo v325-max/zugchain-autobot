@@ -2,7 +2,7 @@
 
 Một bot tự động hóa nâng cao dành cho hệ sinh thái ZugChain Airdrop, hỗ trợ đăng nhập tự động, điểm danh hằng ngày và hoàn thành nhiệm vụ đã được xác minh.
 
----
+
 
 ## 📋 Mục lục
 - [Tính năng](#-tính-năng)
